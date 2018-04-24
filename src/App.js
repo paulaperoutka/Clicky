@@ -17,6 +17,17 @@ class App extends Component {
     clicked: []
   }
 
+  shuffle = array => {
+    for (let i=array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  click = name => {
+    const minion = this.state.clicked.indexOf
+  }
+
   render() {
     return (
       <div className = "wrapper">
@@ -26,10 +37,22 @@ class App extends Component {
           topScore={this.state.topScore}
         </Navbar>
         <Jumbotron />
-        <Card />
+        <div className = "container">
+          {
+          this.state.minions.map(minion => (
+            <Card 
+              name ={minion.name}
+              source = {minion.source}
+              click = {this.click}
+              score = {this.state.score}
+            />
+          ))
+        }
+        </div>
       </div>
     );
   }
 }
 
 export default App;
+

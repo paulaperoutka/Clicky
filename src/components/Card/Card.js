@@ -3,7 +3,9 @@ import React from "react";
 
 const Card = props => (
   <div className="card">
-    <img src={props.source} alt={props.name} />
+  	<a onClick={() => props.click(props.name)}>
+    	<img src={props.source} alt={props.name} />
+    </a>
   </div>
 );
 
