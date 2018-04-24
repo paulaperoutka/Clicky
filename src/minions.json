@@ -1,50 +1,50 @@
-minions = [
-		{
+[
+	{
 		"name": "dancing",
-		"image": "https://cdn.pixabay.com/photo/2014/10/31/17/41/dancing-dave-minion-510835_960_720.jpg"
+		"source": "https://cdn.pixabay.com/photo/2014/10/31/17/41/dancing-dave-minion-510835_960_720.jpg"
 	},
 	{
 		"name": "confused",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/f/f6/Despicable-me-2-teaser-poster.jpeg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/f/f6/Despicable-me-2-teaser-poster.jpeg"
 	},
 	{
 		"name": "purple",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/1/1a/Imageminion.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/1/1a/Imageminion.jpg"
 	},
 	{
 		"name": "car",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/0/0f/430144_10151474083177592_1077476358_n.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/0/0f/430144_10151474083177592_1077476358_n.jpg"
 	},
 	{
 		"name": "island",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/b/b6/1002751_10151484431412592_1989159940_n.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/b/b6/1002751_10151484431412592_1989159940_n.jpg"
 	},
 	{
 		"name": "golf",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/b/b0/Minion_kevin_in_despicable_me_2-1920x1200.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/b/b0/Minion_kevin_in_despicable_me_2-1920x1200.jpg"
 	},
 	{
 		"name": "nanny",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/0/03/Despicable_Me_2_Phil-1-.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/0/03/Despicable_Me_2_Phil-1-.jpg"
 	},
 	{
 		"name": "halloween",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/9/96/Despicable-me2-disneyscreencaps_com-557.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/9/96/Despicable-me2-disneyscreencaps_com-557.jpg"
 	},
 	{
 		"name": "jam",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/8/84/Screenshot_2016-12-31-19-35-48_1.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/8/84/Screenshot_2016-12-31-19-35-48_1.jpg"
 	},
 	{
 		"name": "lunch",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/7/7a/7962_10151477005722592_1994981428_n.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/7/7a/7962_10151477005722592_1994981428_n.jpg"
 	},
 	{
 		"name": "laughing",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/3/30/Despicable-me-2-laughing-minions.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/3/30/Despicable-me-2-laughing-minions.jpg"
 	},
 	{
 		"name": "party",
-		"image": "https://vignette.wikia.nocookie.net/despicableme/images/e/e5/1069308_10151497308487592_472692811_n.jpg"
+		"source": "https://vignette.wikia.nocookie.net/despicableme/images/e/e5/1069308_10151497308487592_472692811_n.jpg"
 	}
 ]

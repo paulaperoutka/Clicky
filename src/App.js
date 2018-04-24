@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+
+import minions from "./minions.json";
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+import Card from "./components/Card";
+
 import './App.css';
 
 class App extends Component {
+  state = {
+    message: "Click a minion to start the game!",
+    score: 0,
+    topScore: 0,
+    minions: minions,
+    clicked: []
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className = "wrapper">
+        <Navbar>
+          message={this.state.message}
+          score={this.state.score}
+          topScore={this.state.topScore}
+        </Navbar>
       </div>
     );
   }
