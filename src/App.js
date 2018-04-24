@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 import minions from "./minions.json";
 import Navbar from "./components/Navbar";
@@ -25,6 +25,8 @@ class App extends Component {
           score={this.state.score}
           topScore={this.state.topScore}
         </Navbar>
+        <Jumbotron />
+        <Card />
       </div>
     );
   }
