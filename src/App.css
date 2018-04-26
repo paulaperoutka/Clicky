@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -26,3 +26,45 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/
+
+/*font-family: 'Bungee', cursive;*/
+
+body {
+  background-image: url("https://images.pexels.com/photos/248860/pexels-photo-248860.jpeg");
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: 100%;
+  font-family: 'Bungee', cursive;
+}
+
+.minion-message {
+  font-family: 'Bungee', cursive;
+}
+
+.minion-score {
+  color: white;
+}
+
+.jumbotron {
+  height: 200px;
+  opacity: .55;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 60px;
+
+}
+
+.minion {
+  float: left;
+  width: 215px;
+  height: 145px;
+}
+
+.img-thumbnail {
+  cursor: pointer;
+}
+
+
