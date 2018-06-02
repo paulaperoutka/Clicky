@@ -15,7 +15,7 @@ Once the user's score is reset after an incorrect guess, the game restarts with 
 
 ## Deplyment
 Visit heroku to play the game
-[Minion-Click](minion-click.herokuapp.com)
+[Minion-Click](https://minion-click.herokuapp.com)
 
 ## Credits
 Thank you to http://despicableme.wikia.com/wiki/Minions for their profusion of minion pics!
