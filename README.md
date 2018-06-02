@@ -14,7 +14,7 @@ In addition, each time an image is clicked, the images rendered to the page shuf
 Once the user's score is reset after an incorrect guess, the game restarts with score zero but persisting the highest score recorded.
 
 ## Deplyment
-Visit heroku to play the game
+Visit heroku to play the game: 
 [Minion-Click](https://minion-click.herokuapp.com)
 
 ## Credits
